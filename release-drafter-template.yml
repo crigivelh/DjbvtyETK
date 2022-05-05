@@ -28,9 +28,6 @@ version-resolver:
       - "Patch"
   default: patch
 
-template: |
-  ## What's new?
-
   $CHANGES
 
 # The below configurations will label our PRs automatically
@@ -39,9 +36,6 @@ template: |
 #     title:
 #       - "/chore/i"
 #       - "/docs/i"
-#   - label: "Test"
-#     title:
-#       - "/test/i"
 #   - label: "Bug"
 #     title:
 #       - "/fix/i"
